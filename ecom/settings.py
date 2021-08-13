@@ -38,11 +38,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'corsheaders',
 
     ## Our added apps
+    'corsheaders',
     'rest_framework',
     'rest_framework.authtoken',     ## For custom signup functionality
+    'api',
 ]
 
 MIDDLEWARE = [
